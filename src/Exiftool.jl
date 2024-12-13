@@ -6,6 +6,6 @@ export exiftool
 
 const exiftool_path = artifact"exiftool/Image-ExifTool-13.07/exiftool"
 
-exiftool(file; args = ``) = read(`$(perl()) $exiftool_path $args $file`, String)
+exiftool(file; args = ``) = read(`$(Perl_jll.perl()) $exiftool_path $args $file`, String)
 
 end # module Exiftool
