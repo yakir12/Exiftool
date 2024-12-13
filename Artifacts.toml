@@ -1,0 +1,6 @@
+[exiftool]
+git-tree-sha1 = "ec4d0a690a9b7e4c42461fbdec19fccca8241a5a"
+
+    [[exiftool.download]]
+    sha256 = "357f8b4f866bd168ba2eb63b68a7c148dc2859603583657c1a786d26a4327d76"
+    url = "https://exiftool.org/Image-ExifTool-13.07.tar.gz"
